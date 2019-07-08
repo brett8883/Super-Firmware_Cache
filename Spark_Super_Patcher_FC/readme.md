@@ -5,7 +5,7 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===
-FLIGHT CONTROLLER version # 03.02.44.09
+FLIGHT CONTROLLER version # 03.02.43.09
 
 Height limits disabled 
 
@@ -17,13 +17,15 @@ Yaw speed min/max paramter ranges extended
 
 Galileo GPS Satellites reception enabled
 
+Motors will start if inverted (if CSC at altitude and AC inverts the motors will start to save it)
+
 
 
 
 ===
 
 Notes From the Author:
-• 
+• Standard Super Patcher Custom Flight Controller
 ===
 
 ***Firmware Compatibility:***
