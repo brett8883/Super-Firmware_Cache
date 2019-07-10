@@ -4,7 +4,6 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
-Default Flight COntroller# 03.02.35.05
 ===
 FLIGHT CONTROLLER version # 03.02.35.32
 
