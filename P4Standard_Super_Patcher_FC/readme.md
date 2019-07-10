@@ -32,7 +32,7 @@ Notes From the Author:
 
 ***Firmware Compatibility:***
 
-To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
+To use this Custom firmware, your DJI Phantom 4 Standard MUST BE ON STOCK FW v2.00.0700
 
 ===
 
