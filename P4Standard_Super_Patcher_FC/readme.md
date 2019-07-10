@@ -39,7 +39,7 @@ To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
 Know what you are doing before you use this.
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Full Change Log for Super-Patcher Phantom 4 Standard DJI Super-Patcher Custom Flight Controller
 
 *this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
 
