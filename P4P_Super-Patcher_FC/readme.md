@@ -1,4 +1,4 @@
-====CUSTOM DJI SPARK FLIGHT CONTROLLER MODULE====
+====CUSTOM DJI Phantom 4 Pro FLIGHT CONTROLLER MODULE====
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
