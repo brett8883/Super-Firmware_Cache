@@ -1,11 +1,11 @@
-====CUSTOM DJI SPARK FLIGHT CONTROLLER MODULE====
+====CUSTOM DJI Phantom 4 Pro FLIGHT CONTROLLER MODULE====
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===
-FLIGHT CONTROLLER version # 03.02.44.09
+FLIGHT CONTROLLER version # 03.02.44.31
 
 Height limits disabled 
 
@@ -26,16 +26,14 @@ Notes From the Author:
 • 
 ===
 
-***Firmware Compatibility:***
-
-To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
+***Firmware Compatibility***
 
 ===
 
 Know what you are doing before you use this.
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Full Change Log for Super-Patcher Standard P4P DJI Super-Patcher Custom Flight Controller
 
 *this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
 
@@ -260,4 +258,3 @@ GEOZONES DISABLED
 		"defaultValue" : -1.500000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
 	},
-
