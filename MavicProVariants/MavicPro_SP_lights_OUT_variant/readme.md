@@ -13,7 +13,7 @@ AIRCRAFT MODEL:MavicPro/Platinum
 
 REQUIRED STOCK FW VERSION: v01.04.0300
 
-FLIGHT CONTROLLER version # 03.02.44.99
+FLIGHT CONTROLLER version # 03.02.44.97
 
 -------------------------------------------------------------------------------------------------------
 
