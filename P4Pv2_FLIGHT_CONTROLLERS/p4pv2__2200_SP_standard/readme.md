@@ -1,12 +1,15 @@
 =======================================================================================================
 
-====CUSTOM DJI  FLIGHT CONTROLLER MODULE====
+# P4PV2 Super Patcher Standard Flight Controller for v01.00.2200 
+
+=======================================================================================================
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 =======================================================================================================
+# Flight Controller Properties
 =======================================================================================================
 AIRCRAFT MODEL:wm335 P4Pv2
 
@@ -20,7 +23,7 @@ FILE NAME:P4Pv2_!!v01.00.2200!!_Super_Patcher_standard_latest_fw_required_0306_0
 
 -------------------------------------------------------------------------------------------------------
 
-FC SUMMARY:
+**FC SUMMARY:**
 
 Height limits disabled 
 
@@ -36,7 +39,7 @@ Widened MIN/MAX vertical speed range in tripod mode
 
 *******************************************************************************************
 
-Notes From the Author:
+**Notes From the Author:**
 
 • First ever Custom Flight controller for P4Pv2 running fw v01.00.2200!
 
@@ -53,9 +56,6 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard DJI Super-Patcher Custom Flight Controller
-
-*this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
 
 
