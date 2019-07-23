@@ -1,6 +1,6 @@
 # Spark Stealth Variant
 
-New Flight Controller #:03.02.43.99
+New Flight Controller #:03.02.43.21
 
 All mods from original Super-Patcher flight controller
 
