@@ -1,4 +1,4 @@
-====CUSTOM DJI P4P V2 FLIGHT CONTROLLER MODULE====
+# ==CUSTOM DJI P4PV2 FLIGHT CONTROLLER MODULE==
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
@@ -6,6 +6,8 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 ===
 FLIGHT CONTROLLER version # 03.03.04.35
+
+Required stock firmware:V01.00.1500
 
 Height limits disabled 
 
@@ -23,12 +25,12 @@ Galileo GPS Satellites reception enabled
 ===
 
 Notes From the Author:
-• 
+• Standard Super-Patcher FLight Controller for P4Pv2 for firmware V01.00.1500
 ===
 
 ***Firmware Compatibility:***
 
-To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
+To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW V01.00.1500
 
 ===
 
