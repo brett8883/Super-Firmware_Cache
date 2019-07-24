@@ -55,7 +55,9 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Full Change Log for Super-Patcher MavicPro DJI Super-Patcher Custom Flight Controller
+
+(This list only covers the parameter changes for stock SuperPatcher firmware and does not cover the parameters for this specific variant. This library is in beta and should be treated as such)
 
 *this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
