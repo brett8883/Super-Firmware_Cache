@@ -60,7 +60,7 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Full Change Log for Super-Patcher Mavic Pro Stealth Variant Custom Flight Controller
 
 *this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
