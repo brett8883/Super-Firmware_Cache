@@ -229,3 +229,5 @@ Turn off rear LED during flight
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_cfg_debug.force_flash_led"
+**********************************************************************************
+See flyc_param_infos file for all parameters with their min/max and default values. This file includes hard-coded values. 
