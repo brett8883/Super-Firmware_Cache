@@ -51,11 +51,7 @@ To use this Custom firmware, your aircraft MUST BE ON STOCK FW:
 
 ===
 
-Know what you are doing before you use this.
-
-********************************************************************************************
-
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Change log is incomplete. Additionally smart battery is unlocked rear led is hard coded off and some hotpoint mods but hotpoint mods are set to factory default values so have to open those up in Assistant 2 1.1.2. This is a pre-production variant. I make no claims about it’s flight worthiness. Min/max ranges have been expanded for various parameters allowing outrageous values. These values at their maximum are likely not to behave as expected especially if it is not. Logical value. User will need to know what reasonable values are for each parameter that is changed.  
 
 *this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
