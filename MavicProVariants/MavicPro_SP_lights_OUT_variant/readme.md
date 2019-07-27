@@ -1,4 +1,4 @@
-# CUSTOM DJI MavicPro/Platinum Stealth Variant FC Module
+# CUSTOM DJI MavicPro/Platinum Stealth Variant
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
