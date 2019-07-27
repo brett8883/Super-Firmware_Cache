@@ -52,7 +52,10 @@ Note: rear light will activate during start up and may also turn on if an aircra
 
 ***Firmware Compatibility:***
 
-To use this Custom firmware, your aircraft MUST BE ON STOCK FW:
+To use this Custom firmware, your aircraft MUST BE ON STOCK FW: V01.04.0300 or already be on another Super-Patcher Variant with a different FC#. 
+
+**When in doubt flash stock V01.04.0300**
+
 
 ===
 
@@ -60,7 +63,7 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Mavic Pro Stealth Variant Custom Flight Controller
+Full Change Log for Super-Patcher **Mavic Pro Stealth** Variant Custom Flight Controller
 
 *this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
