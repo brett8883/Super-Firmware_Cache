@@ -1,7 +1,4 @@
-=======================================================================================================
-Lights OUT!
-
-====CUSTOM DJI MavicPro/Platinum FLIGHT CONTROLLER MODULE====
+# CUSTOM DJI MavicPro/Platinum Stealth Variant FC Module
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
