@@ -1,14 +1,10 @@
-=======================================================================================================
-Lights OUT!
-
-====CUSTOM DJI MavicPro/Platinum FLIGHT CONTROLLER MODULE====
+# MavicPro/MPP Super-Patcher Stealth Variant
+for MavicPro, Mavic Pro Platinum, or Mavic Pro Alpine White
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
-=======================================================================================================
-=======================================================================================================
 AIRCRAFT MODEL:MavicPro/Platinum 
 
 REQUIRED STOCK FW VERSION: v01.04.0300
@@ -17,7 +13,7 @@ FLIGHT CONTROLLER version # 03.02.44.97
 
 -------------------------------------------------------------------------------------------------------
 
-FC SUMMARY:
+**FC SUMMARY:**
 
 Height limits disabled 
 
@@ -37,7 +33,7 @@ rear light is switched to off while in flight
 
 *******************************************************************************************
 
-Notes From the Author:
+**Notes From the Author:**
 
 • Standard Super Patcher Custom Flight Controller modifications 
 
@@ -50,9 +46,9 @@ Note: rear light will activate during start up and may also turn on if an aircra
 
 ============================================================================================
 
-***Firmware Compatibility:***
+**Firmware Compatibility:**
 
-To use this Custom firmware, your aircraft MUST BE ON STOCK FW:
+To use this Custom firmware, your aircraft MUST BE ON STOCK FW: v01.04.0300
 
 ===
 
@@ -60,9 +56,9 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+**Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller**
 
-*this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
+*This list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)
 
 **HEIGHT LIMIT DISABLED**
 	
