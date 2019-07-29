@@ -1,0 +1,14 @@
+MAVIC PRO/ MAVIC PRO PLATINUM/ MAVIC PRO ALPINE WHITE VARIANTS 
+
+[1] MavicPro Brett8883 Edition
+      Brett8883's personal flight controller pre-configured with my personal settings 
+	  
+[2]MavicPro Stealth Variant
+      Super-Patcher mods + disables the rear LED lights enabling a super stealthy flight mode 
+	  
+[3]MavicPro Parmeters range extended
+      Super-Patcher mods + many parameter ranges have been unlocked
+	  This variant is for advanced pilots wishing to explore the limits of their aircraft 
+	  WARNING: THIS VARIANT ALLOWS PARAMETERS SETTINGS TO BE SAVED WHICH WOULD SURELY BE UNSAFE OR IMPOSSIBLE 
+	        IT IS NECCESSARY THAT THE USER ONLY ENTER PARAMETER VALUES THEY KNOW ARE LOGICAL OR RISK THE AIRCRAFT BEHAVING IRRATICALLY
+	  USE AT YOUR OWN RISK!!!
