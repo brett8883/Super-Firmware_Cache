@@ -1,4 +1,4 @@
-# MavicPro/MPP Super-Patcher Stealth Variant Flight Controller
+# MavicPro/MPP Super-Patcher Stealth Variant
 for MavicPro, Mavic Pro Platinum, orMavic Pro Alpine White
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
