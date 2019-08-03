@@ -1507,7 +1507,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.avoid_cfg.avoid_config_enable"
 	},
 	{
@@ -1517,7 +1517,7 @@
 		"attribute" : 34,
 		"minValue" : 0.100000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.800000,
+		"defaultValue" : 0.900000,
 		"name" : "g_config.avoid_cfg.avoid_rc_scale"
 	},
 	{
@@ -1828,7 +1828,7 @@
 		"attribute" : 54,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.go_home.avoid_ascending_height_limit_disable"
 	},
 	{
@@ -1948,8 +1948,8 @@
 		"size" : 2,
 		"attribute" : 17,
 		"minValue" : 20,
-		"maxValue" : 500,
-		"defaultValue" : 120,
+		"maxValue" : 9000,
+		"defaultValue" : 9000,
 		"name" : "fly_limit_height"
 	},
 	{
@@ -2275,7 +2275,7 @@
 		"attribute" : 37,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.misc_cfg.gimbal_priority_en"
 	},
 	{
@@ -2353,7 +2353,7 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 1,
+		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 10,
 		"name" : "dji_bat_level_1"
@@ -2363,9 +2363,9 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 1,
+		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 5,
+		"defaultValue" : 0,
 		"name" : "dji_bat_level_2"
 	},
 	{
@@ -2385,7 +2385,7 @@
 		"attribute" : 21,
 		"minValue" : 0,
 		"maxValue" : 10,
-		"defaultValue" : 2,
+		"defaultValue" : 0,
 		"name" : "bat_cap_v2_prot_type"
 	},
 	{
@@ -2445,7 +2445,7 @@
 		"attribute" : 20,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 3,
+		"defaultValue" : 5,
 		"name" : "smart_bat_basic_cap"
 	},
 	{
@@ -2455,7 +2455,7 @@
 		"attribute" : 48,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 5,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.level1_smart_battert_gohome"
 	},
 	{
@@ -2465,7 +2465,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.level2_smart_battert_land"
 	},
 	{
@@ -2494,7 +2494,7 @@
 		"size" : 1,
 		"attribute" : 33,
 		"minValue" : 0,
-		"maxValue" : 11,
+		"maxValue" : 12,
 		"defaultValue" : 8,
 		"name" : "g_config.control.control_mode[1]"
 	},
@@ -2504,7 +2504,7 @@
 		"size" : 1,
 		"attribute" : 33,
 		"minValue" : 0,
-		"maxValue" : 11,
+		"maxValue" : 12,
 		"defaultValue" : 7,
 		"name" : "g_config.control.control_mode[2]"
 	},
@@ -2514,7 +2514,7 @@
 		"size" : 1,
 		"attribute" : 47,
 		"minValue" : 0,
-		"maxValue" : 11,
+		"maxValue" : 12,
 		"defaultValue" : 7,
 		"name" : "g_config.control.default_power_up_control_mode",
 		"modify" : true
@@ -4758,7 +4758,7 @@
 		"size" : 4,
 		"attribute" : 41,
 		"minValue" : 0.000000,
-		"maxValue" : 10.000000,
+		"maxValue" : 100.000000,
 		"defaultValue" : 0.700000,
 		"name" : "g_config.landing.smart_landing_height_L1"
 	},
@@ -4768,7 +4768,7 @@
 		"size" : 4,
 		"attribute" : 41,
 		"minValue" : 0.000000,
-		"maxValue" : 10.000000,
+		"maxValue" : 100.000000,
 		"defaultValue" : 2.000000,
 		"name" : "g_config.landing.smart_landing_height_L2"
 	},
@@ -4798,8 +4798,8 @@
 		"size" : 4,
 		"attribute" : 37,
 		"minValue" : 0.500000,
-		"maxValue" : 4.000000,
-		"defaultValue" : 2.000000,
+		"maxValue" : 100.000000,
+		"defaultValue" : 4.000000,
 		"name" : "g_config.landing.exit_landing_height"
 	},
 	{
@@ -4999,8 +4999,8 @@
 		"typeID" : 5,
 		"size" : 2,
 		"attribute" : 10,
-		"minValue" : 50,
-		"maxValue" : 200,
+		"minValue" : 1,
+		"maxValue" : 300,
 		"defaultValue" : 120,
 		"name" : "atti_gain"
 	},
@@ -5239,8 +5239,8 @@
 		"typeID" : 5,
 		"size" : 2,
 		"attribute" : 15,
-		"minValue" : 20,
-		"maxValue" : 150,
+		"minValue" : 1,
+		"maxValue" : 200,
 		"defaultValue" : 100,
 		"name" : "horiz_pos_gain",
 		"modify" : true
@@ -5280,8 +5280,8 @@
 		"typeID" : 5,
 		"size" : 2,
 		"attribute" : 15,
-		"minValue" : 20,
-		"maxValue" : 150,
+		"minValue" : 1,
+		"maxValue" : 300,
 		"defaultValue" : 110,
 		"name" : "horiz_vel_gain",
 		"modify" : true
@@ -5980,7 +5980,7 @@
 		"attribute" : 34,
 		"minValue" : 10,
 		"maxValue" : 60,
-		"defaultValue" : 16,
+		"defaultValue" : 25,
 		"name" : "g_config.control.avoid_atti_range"
 	},
 	{
@@ -6000,7 +6000,7 @@
 		"attribute" : 20,
 		"minValue" : 1,
 		"maxValue" : 100,
-		"defaultValue" : 100,
+		"defaultValue" : 27,
 		"name" : "tilt_sensitive_gain"
 	},
 	{
@@ -6010,7 +6010,7 @@
 		"attribute" : 19,
 		"minValue" : 1,
 		"maxValue" : 100,
-		"defaultValue" : 80,
+		"defaultValue" : 10,
 		"name" : "yaw_sensitive_gain"
 	},
 	{
@@ -6189,7 +6189,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 50,
-		"minValue" : 0.100000,
+		"minValue" : 0,
 		"maxValue" : 1.000000,
 		"defaultValue" : 1.000000,
 		"name" : "g_config.flying_limit.sport_break_atti_limit_gain"
@@ -7360,7 +7360,7 @@
 		"attribute" : 34,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.900000,
+		"defaultValue" : 0.600000,
 		"name" : "g_config.mode_normal_cfg.rc_scale"
 	},
 	{
@@ -7509,7 +7509,7 @@
 		"size" : 4,
 		"attribute" : 36,
 		"minValue" : 1.000000,
-		"maxValue" : 10.000000,
+		"maxValue" : 100.000000,
 		"defaultValue" : 6.000000,
 		"name" : "g_config.mode_sport_cfg.vert_vel_up"
 	},
@@ -7518,7 +7518,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 38,
-		"minValue" : -10.000000,
+		"minValue" : -100.000000,
 		"maxValue" : -1.000000,
 		"defaultValue" : -9.000000,
 		"name" : "g_config.mode_sport_cfg.vert_vel_down"
@@ -7550,7 +7550,7 @@
 		"attribute" : 43,
 		"minValue" : 0.050000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.050000,
+		"defaultValue" : 0.100000,
 		"name" : "g_config.mode_sport_cfg.tilt_exp_mid_point",
 		"modify" : true
 	},
@@ -7572,7 +7572,7 @@
 		"attribute" : 43,
 		"minValue" : 0.050000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.10000,
 		"name" : "g_config.mode_sport_cfg.lift_exp_mid_point",
 		"modify" : true
 	},
@@ -7593,7 +7593,7 @@
 		"attribute" : 40,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 20.000000,
+		"defaultValue" : 35.000000,
 		"name" : "g_config.prop_cover_cfg.tilt_atti_range"
 	},
 	{
@@ -7601,9 +7601,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 40,
-		"minValue" : 100.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 500.000000,
-		"defaultValue" : 150.000000,
+		"defaultValue" : 250.000000,
 		"name" : "g_config.prop_cover_cfg.tilt_gyro_range"
 	},
 	{
@@ -7623,7 +7623,7 @@
 		"attribute" : 36,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 3.000000,
+		"defaultValue" : 4.000000,
 		"name" : "g_config.prop_cover_cfg.vert_vel_up"
 	},
 	{
@@ -7633,7 +7633,7 @@
 		"attribute" : 38,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -2.000000,
+		"defaultValue" : -10.000000,
 		"name" : "g_config.prop_cover_cfg.vert_vel_down"
 	},
 	{
@@ -7643,7 +7643,7 @@
 		"attribute" : 36,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 6.000000,
+		"defaultValue" : 4.000000,
 		"name" : "g_config.prop_cover_cfg.vert_acc_up"
 	},
 	{
@@ -7653,7 +7653,7 @@
 		"attribute" : 38,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -5.000000,
+		"defaultValue" : -4.000000,
 		"name" : "g_config.prop_cover_cfg.vert_acc_down"
 	},
 	{
@@ -7663,7 +7663,7 @@
 		"attribute" : 43,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.100000,
 		"name" : "g_config.prop_cover_cfg.tilt_exp_mid_point",
 		"modify" : true
 	},
@@ -7674,7 +7674,7 @@
 		"attribute" : 43,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.100000,
 		"name" : "g_config.prop_cover_cfg.tors_exp_mid_point",
 		"modify" : true
 	},
@@ -7685,7 +7685,7 @@
 		"attribute" : 43,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.100000,
 		"name" : "g_config.prop_cover_cfg.lift_exp_mid_point",
 		"modify" : true
 	},
@@ -8090,7 +8090,7 @@
 		"size" : 4,
 		"attribute" : 55,
 		"minValue" : 0.000000,
-		"maxValue" : 35.000000,
+		"maxValue" : 60.000000,
 		"defaultValue" : 35.000000,
 		"name" : "g_config.avoid_obstacle_limit_cfg.low_speed_cmpen_atti"
 	},
@@ -8363,8 +8363,8 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 0.000000,
-		"maxValue" : 90.000000,
-		"defaultValue" : 70.000000,
+		"maxValue" : 200.000000,
+		"defaultValue" : 30.000000,
 		"name" : "g_config.hotpoint.max_yaw_rate",
 		"modify" : true
 	},
@@ -8374,7 +8374,7 @@
 		"size" : 4,
 		"attribute" : 34,
 		"minValue" : 0.000000,
-		"maxValue" : 10.000000,
+		"maxValue" : 100.000000,
 		"defaultValue" : 10.000000,
 		"name" : "g_config.hotpoint.max_tangent_vel"
 	},
@@ -8383,7 +8383,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 29,
-		"minValue" : 5.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
 		"defaultValue" : 5.000000,
 		"name" : "g_config.hotpoint.min_radius"
@@ -8394,8 +8394,8 @@
 		"size" : 4,
 		"attribute" : 29,
 		"minValue" : 100.000000,
-		"maxValue" : 500.000000,
-		"defaultValue" : 500.000000,
+		"maxValue" : 10000.000000,
+		"defaultValue" : 10000.000000,
 		"name" : "g_config.hotpoint.max_radius"
 	},
 	{
@@ -8404,8 +8404,8 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
-		"defaultValue" : 2.000000,
+		"maxValue" : 10.000000,
+		"defaultValue" : 8.000000,
 		"name" : "g_config.hotpoint.max_vert_vel",
 		"modify" : true
 	},
@@ -8415,8 +8415,8 @@
 		"size" : 4,
 		"attribute" : 33,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
-		"defaultValue" : 3.000000,
+		"maxValue" : 20.000000,
+		"defaultValue" : 20.000000,
 		"name" : "g_config.hotpoint.max_radius_vel"
 	},
 	{
@@ -8426,7 +8426,7 @@
 		"attribute" : 29,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 5.000000,
+		"defaultValue" : 1.000000,
 		"name" : "g_config.hotpoint.min_height"
 	},
 	{
@@ -8445,8 +8445,8 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 100.000000,
-		"maxValue" : 800.000000,
-		"defaultValue" : 500.000000,
+		"maxValue" : 10000.000000,
+		"defaultValue" : 10000.000000,
 		"name" : "g_config.hotpoint.max_distance",
 		"modify" : true
 	},
@@ -10409,7 +10409,7 @@
 		"attribute" : 26,
 		"minValue" : 5.000000,
 		"maxValue" : 50.000000,
-		"defaultValue" : 10.000000,
+		"defaultValue" : 20.000000,
 		"name" : "g_config.fw_cfg.max_speed"
 	},
 	{
@@ -10419,7 +10419,7 @@
 		"attribute" : 27,
 		"minValue" : 0.100000,
 		"maxValue" : 100.000000,
-		"defaultValue" : 1.000000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.fw_cfg.min_radius",
 		"modify" : true
 	},
@@ -11423,7 +11423,7 @@
 		"attribute" : 53,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.enable_smart_bat_landing_portect"
 	},
 	{

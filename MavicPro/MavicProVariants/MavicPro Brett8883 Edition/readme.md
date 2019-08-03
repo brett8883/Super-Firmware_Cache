@@ -18,7 +18,7 @@ AIRCRAFT MODEL:MavicPro wm220
 
 REQUIRED STOCK FW VERSION: v01.04.0300
 
-FLIGHT CONTROLLER VERSION # 03.02.44.02
+FLIGHT CONTROLLER VERSION # 03.02.44.03
 
 ***WARNING: INCLUDESS PRE-MODIFIED PARAMETER VALUES!!***
 
@@ -57,7 +57,7 @@ Know what you are doing before you use this.
 
 ********************************************************************************************
 
-# Full Change Log
+# WARNING THIS LIST IS INACCURATE. THIS LIST IS IN-PROGRESS UNDERCONTRUCTION 
 
 *this list includes ALL paramters or parameter ranges that were changed even hardcoded values (galileo not config with parameters)*
 
