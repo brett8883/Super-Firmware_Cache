@@ -2355,7 +2355,7 @@
 		"attribute" : 16,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 30,
+		"defaultValue" : 0,
 		"name" : "dji_bat_level_1"
 	},
 	{
@@ -2365,7 +2365,7 @@
 		"attribute" : 16,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 10,
+		"defaultValue" : 0,
 		"name" : "dji_bat_level_2"
 	},
 	{
@@ -2435,7 +2435,7 @@
 		"attribute" : 19,
 		"minValue" : 0,
 		"maxValue" : 2,
-		"defaultValue" : 2,
+		"defaultValue" : 0,
 		"name" : "bat_level_2_action"
 	},
 	{
@@ -2445,7 +2445,7 @@
 		"attribute" : 20,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 10,
+		"defaultValue" : 5,
 		"name" : "smart_bat_basic_cap"
 	},
 	{
@@ -2455,7 +2455,7 @@
 		"attribute" : 48,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 15,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.level1_smart_battert_gohome"
 	},
 	{
@@ -2465,7 +2465,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 10,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.level2_smart_battert_land"
 	},
 	{
@@ -11423,7 +11423,7 @@
 		"attribute" : 53,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.bat_config.enable_smart_bat_landing_portect"
 	},
 	{
