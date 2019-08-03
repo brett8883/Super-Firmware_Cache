@@ -1,11 +1,11 @@
-# DJI Phantom 4 Pro Super-Patcher 2.0 Stealth Flight Controller
+# DJI Phantom 4 Pro Super-Patcher 2.0 Battery mod Flight Controller
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===
-FLIGHT CONTROLLER version # 03.02.44.42
+FLIGHT CONTROLLER version # 03.02.44.43
 
 Height limits disabled 
 
@@ -17,16 +17,16 @@ Yaw speed min/max paramter ranges extended
 
 Galileo GPS Satellites reception enabled
 
-Smart battery levels unlocked 
+Smart battery levels unlocked and configured
 
-Rear LED light remains off in flight
 
 
 
 ===
 
 Notes From the Author:
-• Standard Super-Patcher 2.0 flight controller. Adds 2.0 ability to modify smart battery parameters
+• Standard Super-Patcher 2.0 flight controller. Adds 2.0 ability to modify smart battery parameters. Battery is pre-configured.
+
 ===
 
 ***Firmware Compatibility***
@@ -180,7 +180,7 @@ Widened MIN/MAX vertical speed range in tripod mode
 		"defaultValue" : -1.500000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
 **************************
-Expanded Smart Battery parameter ranges (default value remains factory default)
+Expanded Smart Battery parameter ranges and turned off all battery warnings
 
 		"minValue" : 0,
 		"maxValue" : 100,
@@ -191,10 +191,36 @@ Expanded Smart Battery parameter ranges (default value remains factory default)
 		"maxValue" : 100,
 		"defaultValue" : 10,
 		"name" : "dji_bat_level_2"
-***
-Turn off rear LED while in flight
+
+Turned off auto-landing at critical battery warning
+
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"name" : "bat_level_2_action"
+
+Changed "only enough battery to RTH" calculation to be more accurate
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 5,
+		"name" : "smart_bat_basic_cap"
+
+Disabled smart battery RTH and smart battery landing (can be re-enabled in DJI Go 4)
+	
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "g_config.bat_config.level1_smart_battert_gohome"
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "g_config.bat_config.level2_smart_battert_land"
+
+Disabled force landing due to low battery
 
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
-		"name" : "g_cfg_debug.force_flash_led"
+		"name" : "g_config.bat_config.enable_smart_bat_landing_portect"
