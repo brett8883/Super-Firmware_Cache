@@ -46,38 +46,22 @@ Full Change Log for Super-Patcher Standard P4P DJI Super-Patcher Custom Flight C
 
 HEIGHT LIMIT DISABLED
 	
-		"index" : 5,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 43,
 		"minValue" : 1,
 		"maxValue" : 2,
 		"defaultValue" : 2,
 		"name" : "g_config.flying_limit.height_limit_enabled",
 		"modify" : true
 
-		"index" : 204,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 51,
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
 		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs_without_gps"
-
-		"index" : 203,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 39,
+		
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
 		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs"
 
-		"index" : 202,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 39,
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
 		"defaultValue" : 10000.000000,
@@ -108,36 +92,21 @@ NFZ DISABLE
 
 GEOZONES DISABLED
 
-		"index" : 4,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 51,
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.viechle_license_limit_enable"
 
-		"index" : 3,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 50,
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.driver_license_limit_enable"
-
-		"index" : 1,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 57,
+		
 		"minValue" : 0,
 		"maxValue" : 255,
 		"defaultValue" : 1,
 		"name" : "g_config.airport_limit_cfg.cfg_dis
 		
-		"index" : 31,
-		"typeID" : 2,
-		"size" : 4,
 		"attribute" : 45,
 		"minValue" : 0,
 		"maxValue" : 65535,
@@ -148,10 +117,6 @@ GEOZONES DISABLED
 
 ENABLE MOTORS TO BE RESTARTED WHEN AIRCRAFT INVERTED
 
-		"index" : 7,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
@@ -170,12 +135,8 @@ Widened MIN/MAX Yaw speed range for P-GPS with OA sensors ON
 		"defaultValue" : 70.000000,
 		"name" : "g_config.avoid_cfg.avoid_tors_rate_range"
 
-{Widened MIN/MAX Yaw speed range for P-GPS with OA sensors OFF
+Widened MIN/MAX Yaw speed range for P-GPS with OA sensors OFF
 
-		"index" : 730,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 41,
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
 		"defaultValue" : 150.000000,
@@ -197,30 +158,20 @@ Widened MIN/MAX Yaw speed range for Cinematic mode
 	
 Widened MIN/MAX Yaw speed range for tripod mode
 
-		"index" : 774,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 41,
 		"minValue" : 1.000000,
 		"maxValue" : 200.000000,
 		"defaultValue" : 15.000000,
 		"name" : "g_config.mode_tripod_cfg.tors_gyro_range"
 		
 Widened MIN/MAX Yaw speed range for manual mode
-		"index" : 783,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 41,
+
 		"minValue" : 1.000000,
 		"maxValue" : 500.000000,
 		"defaultValue" : 150.000000,
 		"name" : "g_config.mode_manual_cfg.tors_gyro_range"
 	
 Widened MIN/MAX Yaw speed range for waypoint mode 
-		"index" : 807,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 40,
+
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
 		"defaultValue" : 90.000000,
@@ -230,19 +181,11 @@ Widened MIN/MAX Yaw speed range for waypoint mode
 	
 Widened MIN/MAX vertical speed range in tripod mode 
 
-		"index" : 775,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 37,
 		"minValue" : 0.500000,
 		"maxValue" : 10.000000,
 		"defaultValue" : 1.500000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_up"
 	
-		"index" : 776,
-		"typeID" : 8,
-		"size" : 4,
-		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -0.500000,
 		"defaultValue" : -1.500000,
