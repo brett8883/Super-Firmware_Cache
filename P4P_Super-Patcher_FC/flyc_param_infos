@@ -16,7 +16,7 @@
 		"attribute" : 57,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.airport_limit_cfg.cfg_disable_airport_fly_limit"
 	},
 	{
@@ -2353,7 +2353,7 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 10,
+		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 30,
 		"name" : "dji_bat_level_1"
@@ -2363,7 +2363,7 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 10,
+		"minValue" : 0,
 		"maxValue" : 100,
 		"defaultValue" : 10,
 		"name" : "dji_bat_level_2"

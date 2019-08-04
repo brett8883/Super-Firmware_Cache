@@ -1,15 +1,17 @@
-====CUSTOM DJI Phantom 4 Pro FLIGHT CONTROLLER MODULE====
+# DJI Phantom 4 Pro Super-Patcher 2.0 FLIGHT CONTROLLER MODULE
 
-Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
+*Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher*
 
-**MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
+**MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher**
 
 ===
-FLIGHT CONTROLLER version # 03.02.44.31
 
-Height limits disabled 
+FLIGHT CONTROLLER Version **03.02.44.32**
 
-NFZ limits disabled 
+
+Height limits disabled
+
+NFZ limits disabled
 
 GeoZone limits disabled 
 
@@ -17,13 +19,18 @@ Yaw speed min/max paramter ranges extended
 
 Galileo GPS Satellites reception enabled
 
+Unlocked DJI battery parameters
+
 
 
 
 ===
 
 Notes From the Author:
-• 
+• Starndard P4P Super-Patcher 2.0 flight controller
+• Fixed issue with missing NFZ unlock parameter
+• Unlocked DJI battery parameters (default vaules remain factory defaults)
+
 ===
 
 ***Firmware Compatibility***
@@ -38,7 +45,7 @@ Full Change Log for Super-Patcher Standard P4P DJI Super-Patcher Custom Flight C
 *this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
 
 HEIGHT LIMIT DISABLED
-	{
+	
 		"index" : 5,
 		"typeID" : 0,
 		"size" : 1,
@@ -48,8 +55,7 @@ HEIGHT LIMIT DISABLED
 		"defaultValue" : 2,
 		"name" : "g_config.flying_limit.height_limit_enabled",
 		"modify" : true
-	},
-{
+
 		"index" : 204,
 		"typeID" : 8,
 		"size" : 4,
@@ -58,8 +64,7 @@ HEIGHT LIMIT DISABLED
 		"maxValue" : 100000.000000,
 		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs_without_gps"
-	},
-{
+
 		"index" : 203,
 		"typeID" : 8,
 		"size" : 4,
@@ -68,7 +73,7 @@ HEIGHT LIMIT DISABLED
 		"maxValue" : 100000.000000,
 		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs"
-	},{
+
 		"index" : 202,
 		"typeID" : 8,
 		"size" : 4,
@@ -79,30 +84,23 @@ HEIGHT LIMIT DISABLED
 		"name" : "g_config.flying_limit.limit_height_rel"
 	},
 NFZ DISABLE
-{
-		"index" : 1107,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 62,
+
+		"maxValue" : 255,
+		"defaultValue" : 1,
+		"name" : "g_config.airport_limit_cfg.cfg_disable_airport_fly_limit"
+
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.airport_limit_cfg.cfg_enable[FLY_LIMIT_TYPE_SPECIAL]"
-{
-		"index" : 1106,
-		"typeID" : 0,
-		"size" : 1,
-		"attribute" : 62,
+
+
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.airport_limit_cfg.cfg_enable[FLY_LIMIT_TYPE_AIRPORT]"
 		
-{
-		"index" : 2,
-		"typeID" : 2,
-		"size" : 4,
-		"attribute" : 42,
+
 		"minValue" : 0,
 		"maxValue" : 4294967295,
 		"defaultValue" : 20250910,
@@ -117,7 +115,7 @@ GEOZONES DISABLED
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.viechle_license_limit_enable"
-{
+
 		"index" : 3,
 		"typeID" : 0,
 		"size" : 1,
@@ -126,7 +124,7 @@ GEOZONES DISABLED
 		"maxValue" : 1,
 		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.driver_license_limit_enable"
-{
+
 		"index" : 1,
 		"typeID" : 0,
 		"size" : 1,
@@ -164,7 +162,7 @@ GEOZONES DISABLED
 		"maxValue" : 1,
 		"defaultValue" : 1,
 		"name" : "g_config.fdi_open.close_auto_stop_motor_check"
-*********************************************************************************************************	
+**********
 
 {Widened MIN/MAX Yaw speed range for P-GPS with OA sensors ON
 		"index" : 152,
@@ -185,8 +183,8 @@ GEOZONES DISABLED
 		"maxValue" : 300.000000,
 		"defaultValue" : 150.000000,
 		"name" : "g_config.mode_normal_cfg.tors_gyro_range"
-	},
-{Widened MIN/MAX Yaw speed range for sport mode
+
+Widened MIN/MAX Yaw speed range for sport mode
 		"index" : 741,
 		"typeID" : 8,
 		"size" : 4,
@@ -195,9 +193,9 @@ GEOZONES DISABLED
 		"maxValue" : 300.000000,
 		"defaultValue" : 250.000000,
 		"name" : "g_config.mode_sport_cfg.tors_gyro_range"
-	},
+	
 		
-{Widened MIN/MAX Yaw speed range for Cinematic mode
+Widened MIN/MAX Yaw speed range for Cinematic mode
 		"index" : 760,
 		"typeID" : 8,
 		"size" : 4,
@@ -206,8 +204,8 @@ GEOZONES DISABLED
 		"maxValue" : 250.000000,
 		"defaultValue" : 50.000000,
 		"name" : "CM_tors_range"
-	},
-{Widened MIN/MAX Yaw speed range for tripod mode
+	
+Widened MIN/MAX Yaw speed range for tripod mode
 		"index" : 774,
 		"typeID" : 8,
 		"size" : 4,
@@ -217,7 +215,7 @@ GEOZONES DISABLED
 		"defaultValue" : 15.000000,
 		"name" : "g_config.mode_tripod_cfg.tors_gyro_range"
 		
-{Widened MIN/MAX Yaw speed range for manual mode
+Widened MIN/MAX Yaw speed range for manual mode
 		"index" : 783,
 		"typeID" : 8,
 		"size" : 4,
@@ -226,8 +224,8 @@ GEOZONES DISABLED
 		"maxValue" : 500.000000,
 		"defaultValue" : 150.000000,
 		"name" : "g_config.mode_manual_cfg.tors_gyro_range"
-	},
-{Widened MIN/MAX Yaw speed range for waypoint mode 
+	
+Widened MIN/MAX Yaw speed range for waypoint mode 
 		"index" : 807,
 		"typeID" : 8,
 		"size" : 4,
@@ -236,10 +234,10 @@ GEOZONES DISABLED
 		"maxValue" : 300.000000,
 		"defaultValue" : 90.000000,
 		"name" : "g_config.waypoint_cfg.max_auto_yaw_rate"
-		{
-*********************************************************************************************************	
-	},
-{Widened MIN/MAX vertical speed range in tripod mode 
+		
+*****	
+	
+Widened MIN/MAX vertical speed range in tripod mode 
 		"index" : 775,
 		"typeID" : 8,
 		"size" : 4,
@@ -248,7 +246,7 @@ GEOZONES DISABLED
 		"maxValue" : 10.000000,
 		"defaultValue" : 1.500000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_up"
-	},
+	
 		"index" : 776,
 		"typeID" : 8,
 		"size" : 4,
@@ -257,4 +255,16 @@ GEOZONES DISABLED
 		"maxValue" : -0.500000,
 		"defaultValue" : -1.500000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
-	},
+
+***
+Unlocked DJI battery parameters
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 30,
+		"name" : "dji_bat_level_1"
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 10,
+		"name" : "dji_bat_level_2
+
