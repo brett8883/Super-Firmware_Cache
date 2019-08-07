@@ -1,3 +1,5 @@
+# 2.0 UPDATES
+
 Disabled forced autoland at critical battery warning 
 		"minValue" : 0,
 		"maxValue" : 2,
