@@ -9925,7 +9925,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.fdi_open.close_auto_stop_motor_check"
 	},
 	{
