@@ -1,12 +1,13 @@
 # 2.0 UPDATES
 
-Disabled forced autoland at critical battery warning 
+Disabled forced autoland at critical battery warning
+
 		"minValue" : 0,
 		"maxValue" : 2,
 		"defaultValue" : 0,
 		"name" : "bat_level_2_action"
 
-Lowered battery warning levels to 1% (can be adjusted in DJI Go 4 or in Assistant 1.1.2 note: setting the level to zero disables the warning levels altogether and makes it so they can't be adjusted in DJI Go 4)
+Lowered battery warning levels to 1% (can be adjusted in DJI Go 4 or in Assistant 1.1.2 note: Setting these level to zero disables the warning levels altogether and makes it so they can't be adjusted in DJI Go 4)
 
 		"minValue" : 0,
 		"maxValue" : 100,
