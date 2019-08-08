@@ -10,4 +10,4 @@ Height limit has been removed
 
 NFZ and GeoZone limits have been removed 
 
-RTH speed has been increased to 13 m/s (up from 10)
+RTH speed has been increased to 12 m/s (up from 10 m/s)

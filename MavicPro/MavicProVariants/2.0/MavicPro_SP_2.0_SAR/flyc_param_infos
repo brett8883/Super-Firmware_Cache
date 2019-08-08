@@ -2353,7 +2353,7 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 10,
+		"minValue" : 1,
 		"maxValue" : 100,
 		"defaultValue" : 30,
 		"name" : "dji_bat_level_1"
@@ -2363,7 +2363,7 @@
 		"typeID" : 0,
 		"size" : 1,
 		"attribute" : 16,
-		"minValue" : 10,
+		"minValue" : 1,
 		"maxValue" : 100,
 		"defaultValue" : 10,
 		"name" : "dji_bat_level_2"
@@ -6392,7 +6392,7 @@
 		"attribute" : 33,
 		"minValue" : 1.000000,
 		"maxValue" : 15.000000,
-		"defaultValue" : 13.000000,
+		"defaultValue" : 12.000000,
 		"name" : "g_config.go_home.gohome_idle_vel"
 	},
 	{
