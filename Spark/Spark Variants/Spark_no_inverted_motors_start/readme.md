@@ -1,4 +1,4 @@
-====CUSTOM DJI SPARK FLIGHT CONTROLLER MODULE====
+# Spark No Inverted Motor Restart
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
