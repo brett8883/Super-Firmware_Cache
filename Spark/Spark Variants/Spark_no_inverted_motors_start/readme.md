@@ -19,11 +19,11 @@ Galileo GPS Satellites reception enabled
 
 ===
 
-Notes From the Author:
-• Same as the Standard Super-Patcher Super-Patcher flight controller but does not have the parameters to restart motors when inverted. This allows the pilot to cut the motors after a hand catch by tipping it over past 90 degrees. No other changes
-===
+**Notes From the Author:**
 
-***Firmware Compatibility:***
+• Same as the Standard Super-Patcher Super-Patcher flight controller but does not have the parameters to restart motors when inverted. This allows the pilot to cut the motors after a hand catch by tipping it over past 90 degrees. No other changes
+
+**Firmware Compatibility:**
 
 To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW **v01.00.0900**
 
