@@ -67,6 +67,10 @@ HEIGHT LIMIT DISABLED
 
 NFZ DISABLE
 
+		"maxValue" : 255,
+		"defaultValue" : 1,
+		"name" : "g_config.airport_limit_cfg.cfg_disable_airport_fly_limit"
+
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 0,
