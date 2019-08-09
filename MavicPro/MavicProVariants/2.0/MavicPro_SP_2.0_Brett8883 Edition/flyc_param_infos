@@ -1082,7 +1082,7 @@
 		"attribute" : 43,
 		"minValue" : 0,
 		"maxValue" : 65535,
-		"defaultValue" : 200,
+		"defaultValue" : 20,
 		"name" : "g_config.rc_cfg.start_motor_verify_time_ms",
 		"modify" : true
 	},
@@ -1093,7 +1093,7 @@
 		"attribute" : 42,
 		"minValue" : 0,
 		"maxValue" : 65535,
-		"defaultValue" : 1000,
+		"defaultValue" : 10,
 		"name" : "g_config.rc_cfg.stop_motor_verify_time_ms"
 	},
 	{
@@ -2365,7 +2365,7 @@
 		"attribute" : 16,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "dji_bat_level_2"
 	},
 	{
@@ -4628,7 +4628,7 @@
 		"attribute" : 28,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_cfg_debug.force_flash_led"
 	},
 	{
