@@ -7390,7 +7390,7 @@
 		"attribute" : 41,
 		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
-		"defaultValue" : 45.000000,
+		"defaultValue" : 40.000000,
 		"name" : "g_config.mode_normal_cfg.tors_gyro_range"
 	},
 	{
@@ -7572,7 +7572,7 @@
 		"attribute" : 43,
 		"minValue" : 0.050000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.100000,
+		"defaultValue" : 0.10000,
 		"name" : "g_config.mode_sport_cfg.lift_exp_mid_point",
 		"modify" : true
 	},
