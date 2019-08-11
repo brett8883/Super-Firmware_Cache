@@ -1,6 +1,9 @@
-=======================================================================================================
+# WARNING this variant is a work in process. This readme is here as a place holder. Don’t assume the values I have in the readme are correct! Use the flyc_param_infos file 
 
-=== # CUSTOM MavicPro Brett8883 Personal Edition FLIGHT CONTROLLER MODULE===
+
+
+
+# CUSTOM MavicPro Brett8883 Personal Edition FLIGHT CONTROLLER MODULE===
 
 Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
