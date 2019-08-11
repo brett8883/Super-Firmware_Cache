@@ -7,8 +7,11 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===============================
+
 ** DANGER DANGER DANGER READ CAREFULLY!**
+
 ===============================
+
 AIRCRAFT MODEL:**wm220**
 
 REQUIRED STOCK FW VERSION: **01.04.0300**
