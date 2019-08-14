@@ -44,3 +44,10 @@ Disabled smart rth and smart landing by default(can be adjusted in DJI Go or Ass
 		"maxValue" : 100,
 		"defaultValue" : 0,
 		"name" : "g_config.bat_config.level2_smart_battert_land"
+
+Disable rear LED light in flight
+
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"name" : "g_cfg_debug.force_flash_led"

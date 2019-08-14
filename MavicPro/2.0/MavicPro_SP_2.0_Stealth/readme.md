@@ -1,3 +1,5 @@
+Flight Controller#03.02.44.12
+
 Rear LED to remain off in flight (hard-coded value cannot be changed by user. to re-enable requires flash to stock firmware
 
 		"minValue" : 0,

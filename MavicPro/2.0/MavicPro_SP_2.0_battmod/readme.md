@@ -1,3 +1,6 @@
+MavicPro SP 2.0 Standard
+FC#: 03.02.44.21
+
 Disabled forced autoland at critical battery warning 
 		"minValue" : 0,
 		"maxValue" : 2,
