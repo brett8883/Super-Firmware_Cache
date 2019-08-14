@@ -143,14 +143,14 @@ Widened MIN/MAX Yaw speed range for P-GPS with OA sensors ON
 		"defaultValue" : 70.000000,
 		"name" : "g_config.avoid_cfg.avoid_tors_rate_range"
 
-{Widened MIN/MAX Yaw speed range for P-GPS with OA sensors OFF
+Widened MIN/MAX Yaw speed range for P-GPS with OA sensors OFF
 
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
 		"defaultValue" : 90.000000,
 		"name" : "g_config.mode_normal_cfg.tors_gyro_range"
 
-{Widened MIN/MAX Yaw speed range for beginner mode
+Widened MIN/MAX Yaw speed range for beginner mode
 
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
@@ -182,14 +182,14 @@ Widened MIN/MAX Yaw speed range for Cinematic mode
 		"defaultValue" : 50.000000,
 		"name" : "CM_tors_range"
 	
-{Widened MIN/MAX Yaw speed range for tripod mode
+Widened MIN/MAX Yaw speed range for tripod mode
 
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
 		"defaultValue" : 15.000000,
 		"name" : "g_config.mode_tripod_cfg.tors_gyro_range"
 		
-{Widened MIN/MAX Yaw speed range for manual mode
+Widened MIN/MAX Yaw speed range for manual mode
 
 		"minValue" : 1.000000,
 		"maxValue" : 500.000000,

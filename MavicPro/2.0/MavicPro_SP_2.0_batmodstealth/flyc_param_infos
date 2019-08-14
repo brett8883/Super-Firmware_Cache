@@ -2355,7 +2355,7 @@
 		"attribute" : 16,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "dji_bat_level_1"
 	},
 	{
@@ -2365,7 +2365,7 @@
 		"attribute" : 16,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "dji_bat_level_2"
 	},
 	{
