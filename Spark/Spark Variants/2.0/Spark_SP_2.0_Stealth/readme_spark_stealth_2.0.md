@@ -5,7 +5,7 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===
-FLIGHT CONTROLLER version # 03.02.43.09
+FLIGHT CONTROLLER version #
 
 Height limits disabled 
 
@@ -19,13 +19,20 @@ Galileo GPS Satellites reception enabled
 
 Motors will start if inverted (if CSC at altitude and AC inverts the motors will start to save it)
 
+Possible smart battery warning levels expanded 
+
+Rear LED light disabled in flight
+
 
 
 
 ===
 
 Notes From the Author:
-• Standard Super Patcher Custom Flight Controller
+• Stealth Super Patcher 2.0 Custom Flight Controller for Spark
+• Rear LED lights disabled in flight
+  - Lights still turn on during start up 
+
 ===
 
 ***Firmware Compatibility:***
@@ -37,9 +44,8 @@ To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
 Know what you are doing before you use this.
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Change Log
 
-*this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
 
 HEIGHT LIMIT DISABLED
 
@@ -138,7 +144,7 @@ Widened MIN/MAX Yaw speed range for beginner mode
 		"defaultValue" : 70.000000,
 		"name" : "g_config.mode_gentle_cfg.tors_gyro_range"
 
-{Widened MIN/MAX Yaw speed range for sport mode
+Widened MIN/MAX Yaw speed range for sport mode
 
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
@@ -193,4 +199,25 @@ Widened MIN/MAX vertical speed range in tripod mode
 		"defaultValue" : -1.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
 
+Widened Smart battery warning levels (can be adjusted in Assistant 1.1.2)
+
+		LOW BATTERY WARNING LEVEL
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 30,
+		"name" : "dji_bat_level_1"
+
+		CRITICAL LOW BATTERY WARNING
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 10,
+		"name" : "dji_bat_level_2
+
+***
+Disable rear LED lights while in flight
+
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"name" : "g_cfg_debug.force_flash_led"
 

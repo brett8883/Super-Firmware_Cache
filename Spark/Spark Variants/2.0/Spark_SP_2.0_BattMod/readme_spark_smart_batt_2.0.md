@@ -5,7 +5,7 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 **MUST be installed via Brett8883’s Super Patcher https://github.com/brett8883/DJI_Super-Patcher **
 
 ===
-FLIGHT CONTROLLER version # 03.02.43.09
+FLIGHT CONTROLLER version #
 
 Height limits disabled 
 
@@ -19,13 +19,22 @@ Galileo GPS Satellites reception enabled
 
 Motors will start if inverted (if CSC at altitude and AC inverts the motors will start to save it)
 
+Possible smart battery warning levels expanded 
+
+Rear LED light disabled in flight
+
 
 
 
 ===
 
 Notes From the Author:
-• Standard Super Patcher Custom Flight Controller
+• Smart Battery Mod Super Patcher 2.0 Custom Flight Controller for Spark
+
+• Smart battery configured to neve force auto-land due to low battery except at the emergency battery voltage at 3.0v per cell
+
+• Rear LED lights disabled in flight
+  - Lights still turn on during start up 
 ===
 
 ***Firmware Compatibility:***
@@ -37,9 +46,8 @@ To use this Custom firmware, your DJI Spark MUST BE ON STOCK FW v01.00.0900
 Know what you are doing before you use this.
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard Spark DJI Super-Patcher Custom Flight Controller
+Change Log
 
-*this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
 
 HEIGHT LIMIT DISABLED
 
@@ -138,7 +146,7 @@ Widened MIN/MAX Yaw speed range for beginner mode
 		"defaultValue" : 70.000000,
 		"name" : "g_config.mode_gentle_cfg.tors_gyro_range"
 
-{Widened MIN/MAX Yaw speed range for sport mode
+Widened MIN/MAX Yaw speed range for sport mode
 
 		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
@@ -181,16 +189,53 @@ Widened MIN/MAX Yaw speed range for waypoint mode
 		"name" : "g_config.waypoint_cfg.max_auto_yaw_rate"
 		
 *********************************************************************************************************	
-Widened MIN/MAX vertical speed range in tripod mode 
+# Variant Changes
 
-		"minValue" : 0.500000,
-		"maxValue" : 10.000000,
-		"defaultValue" : 1.000000,
-		"name" : "g_config.mode_tripod_cfg.vert_vel_up"
+Disabled forced autoland at critical battery warning 
 
-		"minValue" : -10.000000,
-		"maxValue" : -0.500000,
-		"defaultValue" : -1.000000,
-		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
+		"minValue" : 0,
+		"maxValue" : 2,
+		"defaultValue" : 0,
+		"name" : "bat_level_2_action"
+
+Disabled battery warning levels (can be reenabled in Assistant 1.1.2)
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "dji_bat_level_1"
+		
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "dji_bat_level_2
+		
+Disabled forced auto-landing at only enough battery to land level
+
+		"minValue" : 0,
+		"maxValue" : 1,
+		"defaultValue" : 0,
+		"name" : "g_config.bat_config.enable_smart_bat_landing_portect"
+
+Changed calculations of only enough battery to return to the home point to make it more accurate
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 5,
+		"name" : "smart_bat_basic_cap"
+		
+Disabled smart rth and smart landing by default(can be adjusted in DJI Go or Assistant 2 1.1.2 in debug mode
+
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "g_config.bat_config.level1_smart_battert_gohome"
+	
+		"minValue" : 0,
+		"maxValue" : 100,
+		"defaultValue" : 0,
+		"name" : "g_config.bat_config.level2_smart_battert_land"
+
+***
 
 
