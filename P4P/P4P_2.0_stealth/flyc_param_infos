@@ -16,7 +16,7 @@
 		"attribute" : 57,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.airport_limit_cfg.cfg_disable_airport_fly_limit"
 	},
 	{
@@ -4628,7 +4628,7 @@
 		"attribute" : 28,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_cfg_debug.force_flash_led"
 	},
 	{
