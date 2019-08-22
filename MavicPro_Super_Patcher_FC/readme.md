@@ -3,7 +3,7 @@
 *By Brett8883*
 
 
-This file was produced when the "custom_306_super_patcher_MavicPro_MPP_dji_system.bin" fligth controller file was made with FC_Patcher. 
+This file was produced when the "MavicPro_MPP_super_patcher_03.02.44.10_dji_system.bin" fligth controller file was made with FC_Patcher. 
 
 It includes a list of ALL the parameters in the custom flight controller module including hard-coded parameters that are in Super-Patcher.
 
