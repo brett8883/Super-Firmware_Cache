@@ -24,22 +24,21 @@ Motors will start if inverted (if CSC at altitude and AC inverts the motors will
 
 ===
 
-Notes From the Author:
-• Standard Super Patcher Custom Flight Controller
+## Notes From the Author:
+
+• Standard Super Patcher 2.0 Custom Flight Controller
+
+## Firmware Compatibility:
+
+To use this Custom firmware, your DJI MavicPro MUST BE ON:
+**STOCK** FW v01.04.0300
+
 ===
 
-***Firmware Compatibility:***
-
-To use this Custom firmware, your DJI MavicPro MUST BE ON STOCK FW v01.04.0300
-
-===
-
-Know what you are doing before you use this.
+***Know what you are doing before you use this.***
 ********************************************************************************************
 
-Full Change Log for Super-Patcher Standard MavicPro DJI Super-Patcher Custom Flight Controller
-
-*this list includes ALL paramters that were changed even hardcoded values (galileo not config with parameters)
+# Change Log
 
 2.0 UPDATES
 
