@@ -8353,7 +8353,7 @@
 		"attribute" : 31,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.hotpoint.limit_height",
 		"modify" : true
 	},
@@ -8363,7 +8363,7 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 0.000000,
-		"maxValue" : 90.000000,
+		"maxValue" : 200.000000,
 		"defaultValue" : 70.000000,
 		"name" : "g_config.hotpoint.max_yaw_rate",
 		"modify" : true
@@ -8374,7 +8374,7 @@
 		"size" : 4,
 		"attribute" : 34,
 		"minValue" : 0.000000,
-		"maxValue" : 10.000000,
+		"maxValue" : 20.000000,
 		"defaultValue" : 10.000000,
 		"name" : "g_config.hotpoint.max_tangent_vel"
 	},
@@ -8394,8 +8394,8 @@
 		"size" : 4,
 		"attribute" : 29,
 		"minValue" : 100.000000,
-		"maxValue" : 500.000000,
-		"defaultValue" : 500.000000,
+		"maxValue" : 100000.000000,
+		"defaultValue" : 100000.000000,
 		"name" : "g_config.hotpoint.max_radius"
 	},
 	{
@@ -8404,7 +8404,7 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 2.000000,
 		"name" : "g_config.hotpoint.max_vert_vel",
 		"modify" : true
@@ -8415,7 +8415,7 @@
 		"size" : 4,
 		"attribute" : 33,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
+		"maxValue" : 20.000000,
 		"defaultValue" : 3.000000,
 		"name" : "g_config.hotpoint.max_radius_vel"
 	},
@@ -8424,7 +8424,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 29,
-		"minValue" : 5.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
 		"defaultValue" : 5.000000,
 		"name" : "g_config.hotpoint.min_height"
@@ -8434,8 +8434,8 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 26,
-		"minValue" : 2.000000,
-		"maxValue" : 4.500000,
+		"minValue" : 1.000000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 2.500000,
 		"name" : "g_config.hotpoint.max_acc"
 	},
@@ -8445,8 +8445,8 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 100.000000,
-		"maxValue" : 800.000000,
-		"defaultValue" : 500.000000,
+		"maxValue" : 100000.000000,
+		"defaultValue" : 100000.000000,
 		"name" : "g_config.hotpoint.max_distance",
 		"modify" : true
 	},
@@ -8455,8 +8455,8 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 27,
-		"minValue" : 0.100000,
-		"maxValue" : 5.000000,
+		"minValue" : 0.001000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 0.700000,
 		"name" : "g_config.hotpoint.pos_gain",
 		"modify" : true
@@ -8466,8 +8466,8 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 27,
-		"minValue" : 0.100000,
-		"maxValue" : 5.000000,
+		"minValue" : 0.001000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 0.150000,
 		"name" : "g_config.hotpoint.vel_gain",
 		"modify" : true
@@ -8488,7 +8488,7 @@
 		"size" : 4,
 		"attribute" : 28,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 2.000000,
 		"name" : "g_config.hotpoint.cmd_slope"
 	},
@@ -8498,7 +8498,7 @@
 		"size" : 4,
 		"attribute" : 31,
 		"minValue" : 1.000000,
-		"maxValue" : 5.000000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 3.000000,
 		"name" : "g_config.hotpoint.output_slope",
 		"modify" : true
