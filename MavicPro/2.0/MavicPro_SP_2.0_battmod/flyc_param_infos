@@ -1948,8 +1948,8 @@
 		"size" : 2,
 		"attribute" : 17,
 		"minValue" : 20,
-		"maxValue" : 500,
-		"defaultValue" : 120,
+		"maxValue" : 9000,
+		"defaultValue" : 9000,
 		"name" : "fly_limit_height"
 	},
 	{
