@@ -1516,8 +1516,8 @@
 		"size" : 4,
 		"attribute" : 34,
 		"minValue" : 0.100000,
-		"maxValue" : 0.800000,
-		"defaultValue" : 0.550000,
+		"maxValue" : 1.000000,
+		"defaultValue" : 0.900000,
 		"name" : "g_config.avoid_cfg.avoid_rc_scale"
 	},
 	{
@@ -1527,7 +1527,7 @@
 		"attribute" : 36,
 		"minValue" : 10.000000,
 		"maxValue" : 35.000000,
-		"defaultValue" : 15.000000,
+		"defaultValue" : 30.000000,
 		"name" : "g_config.avoid_cfg.avoid_atti_range"
 	},
 	{
@@ -5738,8 +5738,8 @@
 		"size" : 2,
 		"attribute" : 33,
 		"minValue" : 100,
-		"maxValue" : 250,
-		"defaultValue" : 210,
+		"maxValue" : 210,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.prop_cover_gain"
 	},
 	{
@@ -5749,7 +5749,7 @@
 		"attribute" : 37,
 		"minValue" : 100,
 		"maxValue" : 300,
-		"defaultValue" : 210,
+		"defaultValue" : 120,
 		"name" : "g_config.mr_ctrl.prop_cover_gain_yaw"
 	},
 	{
@@ -5759,7 +5759,7 @@
 		"attribute" : 42,
 		"minValue" : 100,
 		"maxValue" : 300,
-		"defaultValue" : 165,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.prop_cover_gain_vertical"
 	},
 	{
@@ -5980,7 +5980,7 @@
 		"attribute" : 34,
 		"minValue" : 10,
 		"maxValue" : 360,
-		"defaultValue" : 16,
+		"defaultValue" : 30,
 		"name" : "g_config.control.avoid_atti_range"
 	},
 	{
@@ -6068,9 +6068,9 @@
 		"typeID" : 1,
 		"size" : 2,
 		"attribute" : 46,
-		"minValue" : 10,
+		"minValue" : 1,
 		"maxValue" : 200,
-		"defaultValue" : 80,
+		"defaultValue" : 10,
 		"name" : "g_config.control.prop_cover_brake_sensitivity"
 	},
 	{
@@ -6078,9 +6078,9 @@
 		"typeID" : 1,
 		"size" : 2,
 		"attribute" : 48,
-		"minValue" : 20,
+		"minValue" : 1,
 		"maxValue" : 100,
-		"defaultValue" : 20,
+		"defaultValue" : 50,
 		"name" : "g_config.control.prop_cover_rc_tilt_sensitivity"
 	},
 	{
@@ -6088,9 +6088,9 @@
 		"typeID" : 1,
 		"size" : 2,
 		"attribute" : 47,
-		"minValue" : 20,
+		"minValue" : 1,
 		"maxValue" : 100,
-		"defaultValue" : 40,
+		"defaultValue" : 3,
 		"name" : "g_config.control.prop_cover_rc_yaw_sensitivity",
 		"modify" : true
 	},
@@ -7470,7 +7470,7 @@
 		"attribute" : 33,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.900000,
+		"defaultValue" : 1.000000,
 		"name" : "g_config.mode_sport_cfg.rc_scale"
 	},
 	{
@@ -7583,7 +7583,7 @@
 		"attribute" : 33,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.700000,
+		"defaultValue" : 0.900000,
 		"name" : "g_config.prop_cover_cfg.rc_scale"
 	},
 	{
@@ -7593,7 +7593,7 @@
 		"attribute" : 40,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 20.000000,
+		"defaultValue" : 30.000000,
 		"name" : "g_config.prop_cover_cfg.tilt_atti_range"
 	},
 	{
@@ -7611,9 +7611,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 40,
-		"minValue" : 50.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
-		"defaultValue" : 90.000000,
+		"defaultValue" : 35.000000,
 		"name" : "g_config.prop_cover_cfg.tors_gyro_range"
 	},
 	{

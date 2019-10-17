@@ -16,7 +16,7 @@ AIRCRAFT MODEL:**wm220**
 
 REQUIRED STOCK FW VERSION: **01.04.0300**
 
-FLIGHT CONTROLLER version#: **03.02.44.91**
+FLIGHT CONTROLLER version#: **03.02.44.99**
 
 ------------------------------------------
 
@@ -43,6 +43,8 @@ Possible vertical speed ranges greatly extended
 Critical low battery auto-land is turned *off* by default. 
 
 Auto-landing possible speed values widened
+
+Changed prop cage mode to have cinematic settings
 
 ***********************************************
 
