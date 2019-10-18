@@ -45,6 +45,23 @@ Critical low battery auto-land is turned *off* by default.
 Auto-landing possible speed values widened
 
 Changed prop cage mode to have cinematic settings
+- Prop cage gains have been reverted back to normal settings. Matches User adjustable basic gain settings of 100 for pitch, roll, yaw, throttle like factory default for p-gps mode. Effectively removes prop cover mode and creates new cinematic mode where sensitivity settings can be changed in this new mode without changing overall sensitivity settings.
+- Yaw sensitivity set to 5 (very low sensitivity)
+ - Prop cage yaw sensitivity ranges extended.
+- Prop cage yaw speed reduced to 45 degrees per second (can be adjusted in Assistant 2 1.1.2)
+- Prop cage mode speed increased
+ - Prop cage RC scale increased to .9
+ - Prop cage Atti_range increased to 30
+
+Slightly increased max speed in Sport mode
+- Sport mode rc_scale increased to 1
+
+Increased speed in Avoid mode
+- RC_scale increased to .9
+- atti_range increased to 30
+
+
+
 
 ***********************************************
 
