@@ -1,4 +1,4 @@
-# MavicPro the Prototype v2 Variant
+# MavicPro the Prototype v3 Variant
 
 **DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING!**
 
@@ -8,7 +8,7 @@ Compiled by Brett8883 using Matoupi's FC_Patcher via Brett8883's Super-Patcher
 
 ===============================
 
-** DANGER DANGER DANGER READ CAREFULLY!**
+** Please READ CAREFULLY!**
 
 ===============================
 
@@ -67,7 +67,7 @@ Increased speed in Avoid mode
 
 Notes From the Author:
 
-• Super Patcher Custom Flight Controller plus some additional widened parameter ranges. Not all max possible parameter can be considered possible or safe. This variant is meant to allow additional testing to find the true limits of the aircraft. Default values are left factory default. Never change parameters you do not know what they do! The possible value ranges for this variant have been widened greatly and have not been tested! Exteme values may have unexpected results. 
+• Super Patcher Custom Flight Controller plus some additional widened parameter ranges. Not all max possible parameter can be considered possible or safe. This variant is meant to allow additional testing to find the true limits of the aircraft. Default values are left factory default. Never change parameters you do not know what they do! The possible value ranges for this variant have been widened greatly and have not been tested! Exteme values may have unexpected results. Prop cage mode has been turned into Super-Cinematic mode with sensitivity settings appropriate for cinematic filming.  
 
 # DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING! 
 ===============================================
