@@ -147,7 +147,7 @@ ENABLE MOTORS TO BE RESTARTED WHEN AIRCRAFT INVERTED
 		"minValue" : 0,
 		"maxValue" : 1,
 		"defaultValue" : 1,
-		"name" : "g_config.fdi_open.close_auto_stop_motor_check"
+		"name" : "g_config.fdi_open.close_auto_stop_motor_check" _this is what does it
 
 *******************************
 	
